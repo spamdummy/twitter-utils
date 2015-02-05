@@ -9,7 +9,7 @@ import logging
 def getUserTimeline(tweepy_api,id,count=1):
 	"""
 	Returns a hash of tweetIDs mapped 
-	to tweet raw json  
+	to tweet objects 
 	1 <= count <= 200
 	"""
 	api = tweepy_api
