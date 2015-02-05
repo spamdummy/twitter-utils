@@ -6,7 +6,7 @@ Various utility functions for use with tweepy and the Twitter REST API
 - It lets you use multiple API Keys to interface with Tweepy and the Twitter REST API.
 
 
-#TweetGrabber Prerequisites 
+#Prerequisites 
 - Twitter Account
 - At least one Twitter API Key
 - Go [here](https://apps.twitter.com/) if you need to setup an API Key
