@@ -1,9 +1,11 @@
 # twitter-utils
 Various utility functions for use with tweepy and the Twitter REST API
 
-#TweetGrabber
-- Multi-threaded use of multiple API Keys to interface with the Twitter REST API through use of Tweepy.
-- 
+#What is TweetGrabber?
+- TweetGrabber is a 'wrapper' for the Tweepy API.
+- It lets you use multiple API Keys to interface with Tweepy and the Twitter REST API.
+
+
 #TweetGrabber Prerequisites 
 - Twitter Account
 - At least one Twitter API Key
