@@ -2,12 +2,12 @@
 Various utility functions for use with tweepy and the Twitter REST API. 
 Contains the TweetGrabber class.
 
-#What is TweetGrabber?
+##What is TweetGrabber?
 - TweetGrabber is a 'wrapper' for the Tweepy API.
 - It lets you use multiple API Keys to interface with Tweepy and the Twitter REST API.
 
 
-#Prerequisites 
+##Prerequisites 
 - Twitter Account
 - At least one Twitter API Key
 - Go [here](https://apps.twitter.com/) if you need to setup an API Key
@@ -23,20 +23,20 @@ Contains the TweetGrabber class.
 ```
 - Replace each item with your API Key's details
 
-#Usage
+##Usage
 - Use sample.py as a template for using this module. 
 
-#Example
+##Example
 - Run sample.py, feeding the filenames of your API Key files as command line arguments
 - For example if I have a single API Key stored in a file called key1.json, I would run the script like this:
 ```
 python sample.py key1.json
 ```
 
-#Notes
+##Notes
 - Many improvements can be made to this code. 
 - Further abstraction is definitely needed in the structure of the user supplied functions 'worker' and 'out_worker'
 
-#Dependencies
+##Dependencies
 - [tweepy](http://www.tweepy.org/)
 - Python 2.7
