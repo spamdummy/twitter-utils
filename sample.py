@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import sys
 import tweepy
 import twutils
 import time
@@ -81,11 +82,15 @@ def populateQueue(queue):
 
 
 def main():
+	if len(sys.argv) == 1:
+		print "Usage %s [API_Key_files in json format]..." % sys.argv[0]
+		exit(1)
+
 	credentials = []
 	
 	#Replace this tuple with all your API Key files.
 	#Don't forget to add the comma on the end of a single item tuple.	
-	cred_files = ("acc1.json",)
+	cred_files = sys.argv[1:]
 	
 	for _file in cred_files:
 		credentials.append(twutils.loadCredential(_file))
