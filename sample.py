@@ -37,7 +37,7 @@ def out_worker(queue_in,queue_out):
 		while doContinue(queue_in,queue_out):
 			if queue_out.empty():
 				#Wait some time before checking the queue again...
-				time.sleep(2) 
+				time.sleep(0.005) #5 ms 
 			else:
 				tweets = queue_out.get()
 				
