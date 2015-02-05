@@ -23,8 +23,12 @@ Various utility functions for use with tweepy and the Twitter REST API
 - Replace each item with your API Key's details
 
 #Usage
-- Check out sample.py
-- In the main function replace the cred_files tuple with the filenames of your API Key json files.
+- Read through sample.py
+- Run sample.py, feeding the filenames of your API Key files as command line arguments
+- For example if I have a single API Key stored in a file called key1.json, I would run the script like this:
+```
+python sample.py key1.json
+```
 
 
 #Dependencies
