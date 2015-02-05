@@ -81,8 +81,12 @@ def populateQueue(queue):
 
 
 def main():
-	credentials = []	
+	credentials = []
+	
+	#Replace this tuple with all your API Key files.
+	#Don't forget to add the comma on the end of a single item tuple.	
 	cred_files = ("acc1.json",)
+	
 	for _file in cred_files:
 		credentials.append(twutils.loadCredential(_file))
 	
