@@ -1,4 +1,4 @@
-# twitter-utils
+# twitter-utils (twutils)
 Various utility functions for use with tweepy and the Twitter REST API
 
 #What is TweetGrabber?
