@@ -23,6 +23,9 @@ Various utility functions for use with tweepy and the Twitter REST API
 - Replace each item with your API Key's details
 
 #Usage
+- Use sample.py as a template for using this module. 
+
+#Example
 - Run sample.py, feeding the filenames of your API Key files as command line arguments
 - For example if I have a single API Key stored in a file called key1.json, I would run the script like this:
 ```
