@@ -1,5 +1,6 @@
 # twitter-utils (twutils)
-Various utility functions for use with tweepy and the Twitter REST API
+Various utility functions for use with tweepy and the Twitter REST API. 
+Contains the TweetGrabber class.
 
 #What is TweetGrabber?
 - TweetGrabber is a 'wrapper' for the Tweepy API.
