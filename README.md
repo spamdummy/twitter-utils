@@ -11,7 +11,7 @@ Various utility functions for use with tweepy and the Twitter REST API
 - At least one Twitter API Key
 - Go [here](https://apps.twitter.com/) if you need to setup an API Key
 - For each API Key make a plain text file in json format like so:
-- Replace each item with your API Key's details
+
 ```
 {
 "CONSUMER_KEY":"XXXXXXX",
@@ -20,6 +20,7 @@ Various utility functions for use with tweepy and the Twitter REST API
 "ACCESS_TOKEN_SECRET":"XXXXXXX"
 }
 ```
+- Replace each item with your API Key's details
 
 #Usage
 - Check out sample.py
@@ -28,4 +29,4 @@ Various utility functions for use with tweepy and the Twitter REST API
 
 #Dependencies
 - [tweepy](http://www.tweepy.org/)
-- Python 2.7.5
+- Python 2.7
