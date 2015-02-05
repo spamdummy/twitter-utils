@@ -88,8 +88,7 @@ def main():
 
 	credentials = []
 	
-	#Replace this tuple with all your API Key files.
-	#Don't forget to add the comma on the end of a single item tuple.	
+	#Each command line argument is a filepath to a Twitter API Key stored in JSON file format.
 	cred_files = sys.argv[1:]
 	
 	for _file in cred_files:
