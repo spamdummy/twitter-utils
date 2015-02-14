@@ -10,7 +10,9 @@ Contains the TweetGrabber class.
 ##Prerequisites 
 - Twitter Account
 - At least one Twitter API Key
+
 Go [here](https://apps.twitter.com/) if you need to setup an API Key
+
 For each API Key make a plain text file in json format like so:
 
 ```
